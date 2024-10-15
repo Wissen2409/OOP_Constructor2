@@ -26,6 +26,12 @@ public class Ogrenci
     public Ogrenci(){
 
         // tüm öğrencilerde aynı okul no olur
+
+        // nesneler içerisindeki sabit değerler default ctor içerisinde verilir.
+        // örnek okul no gibi hiç bir öğrenci için değişmeyecek bir değerin ctordan parametre olarak alunmasına gerek yoktur.
+
+        //  default ctor'a  yzılır ve gerekirse, ctor yönlendirmesi ile öğrenci nesnesi üretilirken, default ctor 
+        // çalışır ve okul no değeri basılır
         this.schoolNo=115;
 
     }
@@ -59,3 +65,5 @@ public class Ogrenci
         this.age = age;
     }
 }
+
+// 9 a kadar bir sınıf yazıp istediğiniz karar ctor yazıp bir birine yönlendirin 
